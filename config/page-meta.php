@@ -17,6 +17,10 @@ return [
         'title' => 'Laravel Bar Chart | TailAdmin - Laravel Dashboard Template',
         'description' => 'This is Laravel Bar Chart page for TailAdmin - Laravel Tailwind CSS Admin Dashboard Template',
     ],
+    '/barang' => [
+        'title' => 'Kelola Data Barang | TailAdmin - Laravel Dashboard Template',
+        'description' => 'Manajemen data inventaris dan kelola barang TailAdmin Laravel',
+    ],
     '/basic-tables' => [
         'title' => 'Laravel Basic Data Table | TailAdmin - Laravel Dashboard Template',
         'description' => 'This is Laravel Basic Data Table page for TailAdmin - Laravel Tailwind CSS Admin Dashboard Template',

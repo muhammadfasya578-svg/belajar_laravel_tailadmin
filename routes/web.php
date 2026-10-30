@@ -21,6 +21,9 @@ Route::get('/profile', function () {
     return view('pages.profile', ['title' => 'Profile']);
 })->name('profile');
 
+// kelola barang
+Route::resource('barang', \App\Http\Controllers\BarangController::class);
+
 // form pages
 Route::get('/form-elements', function () {
     return view('pages.forms.form-elements', ['title' => 'Form Elements']);
